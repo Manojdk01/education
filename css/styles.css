@@ -1,0 +1,406 @@
+/* navbar starts */
+.navbar {
+    box-shadow: 0px 8px 8px -6px rgba(0, 0, 0, .5);
+}
+ 
+.brand-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5fcf80;
+}
+
+.brand-logo:hover{
+    color: #5fcf80;
+}
+ 
+.list-nav a {
+    font-size: 1.1rem;
+}
+ 
+.list-nav {
+    margin-right: 15px;
+    font-weight: 400;
+}
+ 
+@media (max-width:1028px) {
+    #title .title-cont {
+        padding-top: 90px;
+    }
+ 
+    #title .title-cont .title-headd {
+        font-size: 2rem;
+        padding-top: -90px;
+    }
+ 
+    #title .title-cont .titlee-p {
+        font-size: 1.1rem;
+    }
+ 
+}
+ 
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+ 
+@media (max-width: 768px) {
+    #hero {
+        height: 100vh;
+    }
+}
+ 
+ 
+/* Navbar ends */
+ 
+ 
+/* Title heading */
+#title {
+    background: linear-gradient(rgba(0, 0, 0, 0.406), rgba(0, 0, 0, 0.406)), url(../images/hero-bg.jpg) top center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%;
+    padding: 1% 5%;
+}
+ 
+.cstm-nav {
+    padding: 1% 5%;
+}
+ 
+#title .title-cont {
+    padding-top: 120px;
+}
+ 
+.title-cont h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+ 
+.title-cont p {
+    color: #fff;
+    font-size: 1.5rem;
+}
+ 
+.title-cont .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+}
+ 
+.title-cont .btn-get-started:hover {
+    background-color: #5fcf80;
+    border: 2px solid #5fcf80;
+}
+ 
+/* Hero content */
+ 
+#hero-content {
+    padding: 5% 5%;
+}
+ 
+.hero-cont-points {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+}
+ 
+.hero-points {
+    color: #5fcf80;
+    font-size: 20px;
+}
+ 
+.hero-cont-points li {
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+ 
+.hero-heads p {
+    font-size: 1.1rem;
+}
+ 
+/* Counter section */
+#counts {
+    background-color: #f6f7f6;
+    padding: 3% 5%;
+    text-align: center;
+ 
+}
+ 
+.counts-div h1 {
+    font-size: 3.5rem;
+    color: #5fcf80;
+}
+ 
+.counts-div p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+ 
+/* card section starts */
+ 
+#why-us {
+    padding: 4% 5%;
+ 
+}
+ 
+#why-us .lrg-card {
+    height: 20%;
+    text-align: start;
+ 
+}
+ 
+/* @media max-width(990px)
+.three-card .card-btms{
+    margin-bottom: 15px;
+} */
+ 
+.lrg-card {
+    background-color: #5fcf80;
+    padding: 3% 3%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+ 
+.lrg-card .green-cont .cards-title {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+ 
+.lrg-card .green-cont p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+ 
+.three-card {
+    text-align: center;
+    margin: auto 0;
+}
+ 
+.green-cont .learn-btn {
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 10px;
+    border-radius: 50px;
+    margin: 10px auto 0;
+    border: none;
+}
+ 
+.green-cont .learn-btn:hover {
+    color: #5fcf80;
+    background: #fff;
+ 
+}
+ 
+.cards-logo {
+    font-size: 25px;
+    background: #ecf9f0;
+    padding: 20px;
+    border-radius: 100%;
+    color: #5fcf80;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+ 
+/* why-us section ends */
+ 
+/* features section starts */
+#feature {
+    padding: 2% 5%;
+    text-align: center;
+}
+ 
+.mar-box {
+    margin: 1.5% 0;
+}
+ 
+.bord-box {
+    text-align: center;
+    border: 1px solid #ecf9f0;
+    padding: 10% 0;
+    transition: 0.5s;
+}
+ 
+.bord-box h3 a {
+    text-decoration: none;
+    color: black;
+    /* font-size: 1rem; */
+    margin-left: 8px;
+    transition: 0.5s;
+}
+ 
+.bord-box h3,
+a {
+    display: inline;
+    text-align: center;
+    margin: auto;
+    font-size: 1.3rem;
+}
+ 
+.bord-box:hover {
+    color: #5fcf80;
+    border: 1px solid #5fcf80;
+}
+ 
+.bord-box:hover h3 a {
+    color: #ffa76e;
+}
+ 
+/* feature section ends */
+ 
+/* courses section starts */
+ 
+.footer-train .trainers {
+    width: 15%;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+ 
+.footer-train .trainer-name {
+    text-align: center;
+    font-size: 1rem;
+}
+ 
+.footer-train {
+    display: inline;
+}
+ 
+.footer-train,
+.train-love {
+    display: inline;
+}
+ 
+.train-love {
+    margin-left: 38%;
+}
+ 
+.picings {
+    margin: 10px 0 15px 0;
+}
+ 
+.picings .price-tag {
+    color: #fff;
+    font-size: 1rem;
+    display: inline;
+    padding: 2% 5%;
+    background: #5fcf80;
+}
+ 
+.card-p {
+    color: #777777;
+}
+ 
+ 
+.pricings h4,
+p {
+    display: inline-block;
+}
+ 
+.prices {
+    float: right;
+}
+ 
+/* courses section ends */
+ 
+/* testmonials section starts */
+ 
+#testmonials {
+    text-align: center;
+    padding: 5% 5%;
+}
+ 
+.test-text {
+    color: #aaaaaa;
+    font-size: 1rem;
+}
+ 
+.test-icons a {
+    text-decoration: none;
+ 
+}
+ 
+.test-icons .testmonials-icons {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    color: #7e9486;
+    transition: 0.5s;
+}
+ 
+.test-icons a .testmonials-icons:hover {
+    color: #7eb890;
+}
+ 
+/* testimonial section end */
+ 
+#footer {
+    background: #eef0ef;
+    padding: 4% 5%;
+}
+ 
+#footer .usefull-links h5 {
+    margin-bottom: 15px;
+}
+ 
+#footer .usefull-links ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #777777;
+}
+ 
+#footer .usefull-links ul li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+ 
+ 
+#footer .usefull-links ul {
+    padding: 0;
+}
+ 
+#footer .usefull-links ul li i {
+    padding-right: 2px;
+    color: #5fcf80;
+    font-size: 18px;
+    line-height: 1;
+    margin-right: 5px;
+}
+ 
+#footer .news-letter h5 {
+    margin-bottom: 15px;
+}
+ 
+#footer .news-letter p {
+    color: #777777;
+    font-size: 1.1rem;
+}
+ 
+#footer form {
+    margin-top: 15px;
+}
+ 
+#footer form input[type=email] {
+    border-radius: 30px;
+    padding: 2% 6%;
+    border: 1px solid #dcdcdc;
+    outline: none;
+}
+ 
+#footer form input[type=submit] {
+    border-radius: 30px;
+    padding: 2% 6%;
+    border: none;
+    outline: none;
+    background: #5fcf80;
+    margin-left: -10%;
+    color: #fff;
+}
